@@ -417,9 +417,12 @@ img {
 .about-image-wrapper img {
     width: 100%;
     height: 550px;
-    object-fit: cover;
+    object-fit: contain;
+    object-position: center top;
+    background-color: #f8fdf9;
     border-radius: 20px;
     box-shadow: var(--shadow);
+    padding: 15px;
 }
 
 .about-frame {
@@ -1227,5 +1230,6 @@ img {
 
     .about-image-wrapper img {
         height: 400px;
+        padding: 10px;
     }
 }
